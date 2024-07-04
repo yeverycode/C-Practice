@@ -1,0 +1,66 @@
+# 시스템 파일 및 폴더 무시
+.DS_Store
+Thumbs.db
+
+# 사용자 디렉토리 무시
+/Application Data/
+/Cookies/
+/Documents/
+/My Music/
+/My Pictures/
+/My Videos/
+/Local Settings/
+/My Documents/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/Templates/
+/시작 메뉴/
+
+# 기타 필요하지 않은 파일 및 폴더 무시
+.bash_history
+.conda
+.condarc
+.continuum/
+.dotnet/
+.gitconfig
+.gitattributes
+.ipynb_checkpoints/
+.jupyter/
+.viminfo
+.vscode/
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+
+# Visual Studio 관련 파일 및 폴더 무시
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.pdb
+*.obj
+*.log
+*.tmp
+*.bak
+*.ncb
+*.sdf
+*.opensdf
+*.tlog
+*.ide
+
+# MacOS 관련 파일 및 폴더 무시
+.DS_Store
+
+# 기타 프로젝트 파일 무시
+node_modules/
+npm-debug.log
+yarn-error.log
+.idea/
+*.iml
