@@ -24,7 +24,7 @@ int main() {
     printf("%s\n%s\n%s\n", s1,s2,s3);
     free(s1);
     free(s2);
-    free(s3);*/
+    free(s3);
 
     char* s1 = malloc(sizeof(char) * 20);
     char* s2 = malloc(sizeof(char) * 20);
@@ -39,5 +39,5 @@ int main() {
     free(s3);
     free(s4);
 
-    return 0;
+    return 0; */
 }
